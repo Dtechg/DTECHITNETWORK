@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact{
+    position: relative;
+    max-width: 100%;
+    max-height: 70%;
+    padding: 50px;
+    background-color: rgb(145, 7, 145);
+    z-index: -1;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+.contact h1{
+    font-size: 25px;
+    text-align: center;
+   
+}
+.contact p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.row {
+   background-color: antiquewhite;
+   padding-top: 25px;
+  }
+  .column{
+    display: flex;
+    padding: 12px;
+    margin: 20px;
+    position: relative;
+    gap: 10%;  
+  }
+    .card {
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -40px;
+    border-radius: 10px;
+    box-shadow: 0 12px rgba(0, 0, 0, 0.1); 
+
+  }
+  .card i {
+    font-size: 24px;
+    margin-bottom: px;
+  }
+
+  .connectus{
+    position: relative;
+    max-width: 100%;
+    max-height: 70%;
+    padding: 50px;
+    background-color: rgb(145, 7, 145);
+    color: #ffffff;
+    margin-top: -19px;
+  }
+  .connectus input,
+  .btn {
+    width: 50%;
+    padding: 12px;
+    border: 2PX solid lightblue;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 10px;
+    text-decoration: none; /* remove underline from anchors */
+    position: relative;
+  }
+  input:hover,
+  .btn:hover {
+    opacity: 1;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+  }
+  .connectus .hero{
+    width: 100%;
+    padding-left: 55%;
+    margin-top: -350px;
+  }
+  .footersuper{
+    background-color:purple;
+    min-height: 50px;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+    padding: 20px;
+    padding-left: 5%;
+    justify-content: center;
+}
+.logo h1{
+  font-size:  16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.logo{
+  padding-left: 35px;
+}
+form1 {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.footersuper a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.column5 i{
+  font-size: 24px; /* Adjust the size of the icon */
+  margin-right: 10px; /* Add margin to the right of the icon */
+  vertical-align: middle; /* Align the icon vertically in the middle */
+  display: inline-block;
+}
+.column3 h3,
+.column3 p{
+  display: inline-block;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.row1{
+  display: flex;
+  margin: 20px;
+  width: 100%;
+  gap: 10%;
+  font-size: 16px;
+  padding-left: 20px;
+}
+footer{ 
+  font-size: 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}

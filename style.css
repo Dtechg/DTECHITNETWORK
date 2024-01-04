@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:purple;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    display:grid;
+    align-items: center;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto;
+    margin-right: 10px; /* Adjust the spacing between logo and text */
+}
+
+.logo span{
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.branding {
+    background-image: url('SHOWCASE.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: #ce897b;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.showcase {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.showcase h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: brown;
+}
+
+.showcase p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: brown;
+    font-weight: 800%;
+    text-transform: capitalize;
+}
+
+.showcase a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.showcase a:hover {
+    background-color: brown;
+}
+/*********************************************************what we do*********************************************************/
+.container{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+
+.handing {
+    background-color: purple;
+    color: #fff;
+    padding: 40px;
+}
+
+.handing h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.handing p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.handing a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.handing a:hover {
+    background-color: #ffffff;
+}
+/**********************************************************************************************************************************/
+.column {
+    display: flex;
+    max-width: 100%;
+    color: brown;
+    position: relative;
+
+}
+
+.card {
+    width: 20%; /* Adjust the width of the cards as needed */
+    text-align: center;
+    padding: 25px;
+    border: 3px solid purple;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 12px;
+}
+
+/**************************************************package****************************************************************/
+.package{
+    background-color: purple;
+    height: 600px;
+    width: 100%;
+    padding-top: -12px;
+    color: #ffffff;
+    position: relative;
+}
+.package .column1{
+      border: 2px brown solid;
+      width: 10%;
+      padding: 10px;
+      text-align: center;
+    }
+    .package .column1{
+        float: left;
+        margin: 12px;
+        width: 33%;
+        margin-left: 100px;
+    }
+
+    .package .column1 a{
+        color: #ffffff;
+        padding: 5px;
+        border: 3px white solid;
+        text-decoration: none;
+    }
+    .package .newly p{
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    .column2 {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        background-color: brown;
+        padding: 12px;
+        position: relative;
+
+    }
+    
+    .count {
+        text-align: center;
+        border: 1px solid #ddd;
+        margin: 10px;
+    }
+    
+    .count h3 {
+        font-size: 30px;
+        color: #ffffff;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #ffffff; /* Add a border to the bottom of h3 */
+    } 
+    .count a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .count p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+/**********************************************************footer*********/
+ .contact{
+    background-color: purple;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+ }
+ .contact a{
+    text-decoration: none;
+        color: #ffffff;
+
+ }
+ /************************************************8FOOTER*********************************************88888888*/
+ .footersuper{
+    background-color:purple;
+    min-height: 50px;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+    padding: 20px;
+    padding-left: 5%;
+    justify-content: center;
+}
+.logo h1{
+    font-size:  16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.logo{
+    padding-left: 35px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.footersuper a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.column3 i{
+    font-size: 24px; /* Adjust the size of the icon */
+    margin-right: 10px; /* Add margin to the right of the icon */
+    vertical-align: middle; /* Align the icon vertically in the middle */
+    display: inline-block;
+}
+.column3 h3,
+.column3 p{
+    display: inline-block;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.row{
+    display: flex;
+    margin: 20px;
+    width: 100%;
+    gap: 10%;
+    font-size: 16px;
+    padding-left: 20px;
+}
+footer{ 
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}

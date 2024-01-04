@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../DTECHHUB"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dtech hub"
+	}
+}
